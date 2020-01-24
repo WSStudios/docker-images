@@ -28,7 +28,7 @@ cd ws-amazoncorretto-11/
 # edit the dockerfile if needed
 vim Dockerfile
 # this builds image locally and puts it in your local cache
-docker build --tag wonderstorm/docker-images:3.6-amazoncorretto-11 .
+docker build --tag wonderstorm/docker-images:ws-amazoncorretto-11 .
 # this pushes the image to wonderstorm's public docker hub registry where we store it.
-docker push wonderstorm/docker-images:3.6-amazoncorretto-11
+docker push wonderstorm/docker-images:ws-amazoncorretto-11
 ```
