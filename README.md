@@ -16,7 +16,9 @@ See [Docker Hub](https://hub.docker.com/_/wonderstorm) for all images
 
 Adding another image to be built
 ============
-Instructions pending
+* Go to https://hub.docker.com/repository/docker/wonderstorm/docker-images/builds/edit
+* Add a new build rule matching your folder and tag that you want
+* Click Save and Build!
 
 Manually building and pushing
 ============
