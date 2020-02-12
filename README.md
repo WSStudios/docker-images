@@ -13,9 +13,9 @@ Images
 
 See [Docker's tags](https://hub.docker.com/r/wonderstorm/docker-images/tags) for all images
 
-* [`wonderstorm/docker-images:ws-amazoncorretto-11`](https://hub.docker.com/r/wonderstorm/docker-images/tags) [[dockerfile]](https://github.com/WSStudios/docker-images/ws-amazoncorretto-11/Dockerfile)
+* [`wonderstorm/docker-images:ws-amazoncorretto-11`](https://hub.docker.com/r/wonderstorm/docker-images/tags) [[dockerfile]](https://github.com/WSStudios/docker-images/blob/master/ws-amazoncorretto-11/Dockerfile)
     * Based on: https://github.com/carlossg/docker-maven
-* [`wonderstorm/docker-images:ws-amazoncorretto-11-pwsh`](https://hub.docker.com/r/wonderstorm/docker-images/tags) [[dockerfile]](https://github.com/WSStudios/docker-images/ws-amazoncorretto-11-pwsh/Dockerfile)
+* [`wonderstorm/docker-images:ws-amazoncorretto-11-pwsh`](https://hub.docker.com/r/wonderstorm/docker-images/tags) [[dockerfile]](https://github.com/WSStudios/docker-images/blob/master/ws-amazoncorretto-11-pwsh/Dockerfile)
     * Based on: https://github.com/carlossg/docker-maven with powershell added as the entry point
 
 Adding another image to be built
