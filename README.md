@@ -4,15 +4,19 @@ Wonderstorm Docker Images
 
 These are the various docker images that Wonderstorm uses.
 
+Any changes to this repo are automatically built and pushed to docker hub.
+
 Note, this is a public repo
 
 Images
 ============
 
-See [Docker Hub](https://hub.docker.com/_/wonderstorm) for all images
+See [Docker's tags](https://hub.docker.com/r/wonderstorm/docker-images/tags) for all images
 
-* [`wonderstorm/docker-images:ws-amazoncorretto-11`](https://hub.docker.com/r/wonderstorm/docker-images) [[dockerfile]](https://github.com/WSStudios/docker-images/ws-amazoncorretto-11/Dockerfile)
+* [`wonderstorm/docker-images:ws-amazoncorretto-11`](https://hub.docker.com/r/wonderstorm/docker-images/tags) [[dockerfile]](https://github.com/WSStudios/docker-images/ws-amazoncorretto-11/Dockerfile)
     * Based on: https://github.com/carlossg/docker-maven
+* [`wonderstorm/docker-images:ws-amazoncorretto-11-pwsh`](https://hub.docker.com/r/wonderstorm/docker-images/tags) [[dockerfile]](https://github.com/WSStudios/docker-images/ws-amazoncorretto-11-pwsh/Dockerfile)
+    * Based on: https://github.com/carlossg/docker-maven with powershell added as the entry point
 
 Adding another image to be built
 ============
